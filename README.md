@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🚀 Welcome to the E-Summit Website Project
 
-**URL**: https://lovable.dev/projects/65529ac9-7307-4896-9a62-9f4723fe2961
+## 🌐 Project Info
 
-## How can I edit this code?
+**Live URL:** [[https://e-summit-anab.onrender.com](https://e-summit-anab.onrender.com)]
 
-There are several ways of editing your application.
+This repository contains the source code for the **E-Summit website**, developed using modern frontend technologies for speed, responsiveness, and scalability.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/65529ac9-7307-4896-9a62-9f4723fe2961) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 🧩 Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- ⚡ **Vite** – Fast build tool and development server  
+- ⚛️ **React** – Frontend UI library  
+- 🧠 **TypeScript** – For type safety and better code structure  
+- 🎨 **Tailwind CSS** – Utility-first styling framework  
+- 🧱 **shadcn-ui** – Elegant React UI components  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/65529ac9-7307-4896-9a62-9f4723fe2961) and click on Share -> Publish.
+## 💻 How to Edit or Run This Project
 
-## Can I connect a custom domain to my Lovable project?
+You can modify or contribute to the project in several ways:
 
-Yes, you can!
+### 🩷 Option 1: Use **Lovable**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Open the project here:  
+👉 [E-Summit  Project]((https://e-summit-anab.onrender.com))
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Any changes made through Lovable will automatically commit to this repository.
+
+---
+
+### 💡 Option 2: Use Your Own IDE (Recommended)
+
+If you prefer coding locally, follow these steps:
+
+```bash
