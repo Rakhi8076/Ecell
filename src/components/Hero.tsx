@@ -43,7 +43,8 @@ const Hero = () => {
       <div className="container mx-auto px-4 pt-20 relative z-10">
         <div className="text-center animate-fade-in-up">
           {/* Logo/Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-accent/30">
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-accent/30 
+          hover:bg-white/10 hover:shadow-glow transition-all duration-500 hover:scale-105 animate-fade-in">
             <Sparkles className="text-accent" size={20} />
             <span className="text-white font-medium">E-Cell Presents</span>
           </div>
@@ -80,12 +81,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="bg-accent text-primary hover:bg-accent/90 shadow-glow font-semibold text-lg px-8 py-6 transition-bounce hover:scale-105"
-            >
-              Register Now
-            </Button>
+            
             <Button
               size="lg"
               variant="outline"

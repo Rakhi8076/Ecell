@@ -134,7 +134,7 @@ const SpeakersPage = () => {
 
           {/* Coming Soon Message */}
           <div className="text-center mt-16 animate-fade-in">
-            <div className="inline-block px-8 py-4 bg-white/5 backdrop-blur-lg border border-accent/20 rounded-full">
+            <div className="inline-block px-8 py-4 bg-white/5 backdrop-blur-lg border border-accent/20 rounded-full shadow-md  hover:bg-white/10 hover:shadow-glow transition-all duration-500 hover:scale-105 ">
               <p className="text-white/70 text-lg">
                 ✨ More speakers will be announced soon!
               </p>

@@ -53,11 +53,13 @@ const SponsorsPage = () => {
               {sponsors.platinum.map((sponsor, index) => (
                 <div
                   key={sponsor.name}
-                  className="group relative bg-white/10 backdrop-blur-lg border-2 border-accent/30 rounded-2xl p-8 md:p-10 hover:bg-white/15 hover:shadow-glow transition-all duration-500 hover:scale-105 animate-scale-in w-full sm:w-64"
+                  className="group relative bg-white/10 backdrop-blur-lg border-2 border-accent/30 rounded-2xl
+                   p-8 md:p-10 hover:bg-yellow/15 hover:shadow-glow transition-all duration-500 hover:scale-105 animate-scale-in w-full sm:w-64"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   {/* Glow Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent blur-xl rounded-2xl group-hover:blur-2xl transition-all duration-500"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent 
+                  blur-xl rounded-2xl group-hover:blur-2xl transition-all duration-500"></div>
                   
                   <div className="relative z-10">
                     <img
@@ -91,7 +93,8 @@ const SponsorsPage = () => {
                   style={{ animationDelay: `${100 + index * 100}ms` }}
                 >
                   {/* Glow Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/10 to-transparent blur-lg rounded-xl group-hover:blur-xl transition-all duration-500"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent 
+                  blur-xl rounded-2xl group-hover:blur-2xl transition-all duration-500"></div>
                   
                   <div className="relative z-10">
                     <img
@@ -140,26 +143,6 @@ const SponsorsPage = () => {
                   </div>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* Become a Sponsor CTA */}
-          <div className="mt-20 text-center animate-fade-in">
-            <div className="inline-block bg-white/5 backdrop-blur-lg border border-accent/20 rounded-3xl p-8 md:p-10 max-w-2xl mx-auto">
-              <Mail className="text-accent mx-auto mb-4" size={40} />
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                Interested in Sponsoring?
-              </h3>
-              <p className="text-white/70 mb-6 text-base md:text-lg">
-                Join us in empowering the next generation of entrepreneurs and innovators
-              </p>
-              <a
-                href="mailto:sponsors@esummit.igdtuw.ac.in"
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-accent to-yellow-500 text-primary px-8 py-4 rounded-full font-semibold hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-accent/50"
-              >
-                <Mail size={20} />
-                Become a Sponsor
-              </a>
             </div>
           </div>
         </div>

@@ -46,8 +46,8 @@ const EventsPage = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           {/* Header */}
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+          <div className="text-center mb-16 animate-fade-in ">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 ">
               Featured <span className="text-gradient">Events</span>
             </h2>
             <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto">
@@ -106,7 +106,7 @@ const EventsPage = () => {
           <div className="text-center mt-12">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-accent to-yellow-500 text-primary font-bold px-8 py-6 text-lg hover:scale-105 transition-transform duration-300 shadow-xl hover:shadow-accent/50"
+              className="bg-gradient-to-r from-accent to-yellow-500 text-primary font-bold px-8 py-6 text-lg shadow-md  hover:bg-white/10 hover:shadow-glow transition-all duration-500 hover:scale-105 "
             >
               View All Events
             </Button>

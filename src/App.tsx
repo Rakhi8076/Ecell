@@ -14,6 +14,7 @@ import EventsPage from "./pages/EventsPage";
 import SpeakersPage from "./pages/SpeakersPage";
 import SponsorsPage from "./pages/SponsorsPage";
 import FAQPage from "./pages/FAQPage";
+import GalleryPage from "./pages/GalleryPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -47,7 +48,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename= "/igdtuw-esummit-3d-spark/">
           <PreloaderWrapper>
             <Routes>
               {/* HOME ROUTE */}
@@ -56,6 +57,7 @@ const App = () => {
               {/* OTHER ROUTES */}
               <Route path="/events" element={<EventsPage />} />
               <Route path="/speakers" element={<SpeakersPage />} />
+              <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/sponsors" element={<SponsorsPage />} />
               <Route path="/faq" element={<FAQPage />} />
 

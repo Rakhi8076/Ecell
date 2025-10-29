@@ -13,7 +13,7 @@ const Footer = () => {
               <MapPin size={18} />
               Location
             </h4>
-            <div className="w-full h-48 rounded-xl overflow-hidden shadow-md mb-3">
+            <div className="w-full h-48 rounded-xl overflow-hidden  mb-3 shadow-md  hover:bg-white/10 hover:shadow-glow transition-all duration-500 hover:scale-105 ">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.2854383651735!2d77.2284!3d28.6648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd0683921df7%3A0x9c5ceedd9b7d0685!2sIndira%20Gandhi%20Delhi%20Technical%20University%20for%20Women!5e0!3m2!1sen!2sin!4v1234567890"
                 width="100%"
@@ -96,13 +96,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        {/* 🔸 Bottom Bar */}
-        <div className="border-t border-accent/20 pt-6">
-          <p className="text-white/60 text-sm text-center tracking-wide">
-            © {currentYear} <span className="text-accent font-medium">E-Summit IGDTUW</span>. All rights reserved.
-          </p>
-        </div>
+      {/* 🔸 Bottom Bar - Full Width Border */}
+      <div className="w-screen border-t border-accent/20 ">
+        <p className="text-white/60 text-sm text-center tracking-wide py-4">
+          © {currentYear} E-Summit IGDTUW. All rights reserved.
+        </p>
       </div>
     </footer>
   );
