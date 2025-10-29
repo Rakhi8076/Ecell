@@ -5,10 +5,16 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/igdtuw-esummit-3d-spark/", // ✅ Add this line for GitHub Pages
+  base: "/Ecell/", // ✅ Add this line for GitHub Pages
   server: {
     host: "::",
     port: 8080,
+  },
+  preview: {
+    allowedHosts: [
+      'e-summit-anab.onrender.com', 
+      'localhost' 
+    ],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {

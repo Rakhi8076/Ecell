@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Rakhi8076.github.io/igdtuw-esummit-3d-spark",
+  "homepage": "https://Rakhi8076.github.io/Ecell",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

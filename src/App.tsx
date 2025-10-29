@@ -48,7 +48,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename= "/igdtuw-esummit-3d-spark/">
+        <BrowserRouter basename= "/Ecell/">
           <PreloaderWrapper>
             <Routes>
               {/* HOME ROUTE */}
