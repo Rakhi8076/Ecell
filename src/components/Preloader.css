@@ -27,13 +27,14 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     /* ⚡ Updated gradient: warm gold → teal → royal blue */
-    background: linear-gradient(90deg, #FFD700, #00E0FF, #007BFF);
+    background: linear-gradient(90deg, #007BFF, #FFD700, #00E0FF );
     background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shineShift 8s linear infinite;
-    text-shadow: 0 0 15px rgba(255, 215, 0, 0.35),
-        0 0 25px rgba(0, 191, 255, 0.25);
+    text-shadow: 0 0 25px rgba(0, 191, 255, 0.25),
+    0 0 15px rgba(255, 215, 0, 0.35);
+        
 }
 
 .underline {
